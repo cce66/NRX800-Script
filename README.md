@@ -16,6 +16,7 @@ Ce guide explique comment télécharger le script `nrx800-config.sh` depuis GitH
 Créez le répertoire `NRX-Script` dans votre dossier utilisateur (home) s'il n'existe pas déjà :
 ```bash
 mkdir -p ~/NRX800-Script
+.
 
 
 ### 2. Télécharger le script
@@ -27,6 +28,7 @@ bash
 wget -O ~/NRX800-Script/nrx800-config.sh https://raw.githubusercontent.com/cce66/NRX800-Script/main/nrx800-config.sh
 
 💡 Note : Il faut Utiliser l'URL raw.githubusercontent.com pour obtenir le contenu brut du script, et non la page GitHub
+.
 
 
 ### 3. Rendre le script exécutable 🛠️
@@ -37,6 +39,7 @@ bash
 chmod +x ~/NRX800-Script/nrx800-config.sh
 
 Cette commande permet au script d'être exécuté comme un programme
+.
 
 
 ### 4. Exécuter le script
@@ -51,7 +54,5 @@ cd ~/NRX800-Script
 bash
 
 sudo bash ~/NRX800-Script/nrx800-config.sh
-    
 
-- Les méthodes d'exécution alternatives (comme `bash ~/NRX/nrx800-config.sh`) fonctionnent même sans `chmod +x` :cite[5].
-
+.
